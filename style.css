@@ -10,6 +10,32 @@ body {
     /* Playful font */
     overflow: hidden;
     /* Prevent scrollbars when button moves */
+    flex-direction: column;
+    /* Stack container and footer */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(2px);
+    color: #ff407d;
+    font-family: 'Fredoka One', cursive;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ef5350;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #d32f2f;
+    text-decoration: underline;
 }
 
 .container {
