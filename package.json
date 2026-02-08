@@ -1,0 +1,8 @@
+{
+    "name": "valentine-proposal",
+    "version": "1.0.0",
+    "description": "Will you be my valentine?",
+    "scripts": {
+        "dev": "npx -y serve"
+    }
+}
